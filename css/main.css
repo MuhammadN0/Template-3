@@ -855,9 +855,11 @@ ul{
 .skills .skill span{
   background-color: var(--main-color);
   height: 100%;
+
   display: block;
   position: relative;
 }
+
 .skills .skill span::before{
   content: attr(data-width);
   position: absolute;
